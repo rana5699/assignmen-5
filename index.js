@@ -105,3 +105,7 @@ cuponCode.addEventListener("input", (event) => {
     grandTotal.innerText = grand;
   });
 });
+
+applyBtn.addEventListener("click", () => {
+  cuponCode.value = "";
+});
