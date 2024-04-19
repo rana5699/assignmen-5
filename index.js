@@ -84,10 +84,10 @@ cuponCode.addEventListener("input", (event) => {
   applyBtn.addEventListener("click", () => {
     let discount = 0;
 
-    if (code === "NEW15" || code === "Couple20") {
+    if (code === "NEW15" || code === "Couple 20") {
       if (code === "NEW15") {
         discount = (parseInt(total) * 15) / 100;
-      } else if (code === "Couple20") {
+      } else if (code === "Couple 20") {
         discount = (parseInt(total) * 20) / 100;
       }
       // Update the display with the discount
